@@ -12,4 +12,4 @@ setInterval(function() {
         lastUrl = window.location.href;
         location.reload();
     }
-}, 1000);
+}, 0);
