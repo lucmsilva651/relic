@@ -12,11 +12,9 @@ body {
 .img-center {
   display: inline-block;
   margin-bottom: 5px;
-  /* Ajuste de margem */
 }
 
 .relic-desc {
-  /* Ajuste de margem para seu texto */
   font-size: 35px;
   cursor: default;
 }
