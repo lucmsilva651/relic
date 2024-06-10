@@ -1,0 +1,42 @@
+:root {
+  --font-family: "Manrope", sans-serif;
+}
+
+body {
+  margin: 175px;
+  overflow: hidden;
+  font-family: var(--font-family);
+  text-align: center;
+}
+
+.img-center {
+  display: inline-block;
+  margin-bottom: 5px;
+  /* Ajuste de margem */
+}
+
+.relic-desc {
+  /* Ajuste de margem para seu texto */
+  font-size: 35px;
+  cursor: default;
+}
+
+.default {
+  text-align: center;
+  cursor: default;
+  user-select: none;
+}
+
+@media only screen and (max-width: 850px) {
+  body {
+    margin: 50px;
+  }
+
+  .img-center {
+    margin-bottom: 0px;
+  }
+
+  .relic-desc {
+    font-size: 25px;
+  }
+}
