@@ -25,6 +25,14 @@ body {
   user-select: none;
 }
 
+.gsc-results-wrapper-overlay,
+.gsc-input, .gsc-selected-option,
+.gsq_a {
+  font-family: var(--font-family);
+  font-weight: normal;
+  text-align: left;
+}
+
 @media only screen and (max-width: 850px) {
   body {
     margin: 50px;
